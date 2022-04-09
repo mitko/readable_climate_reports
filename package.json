@@ -1,0 +1,29 @@
+{
+  "name": "readable_climate_reports",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Make climate reports readable",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitko/readable_climate_reports.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitko/readable_climate_reports/issues"
+  },
+  "homepage": "https://github.com/mitko/readable_climate_reports#readme",
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "node": "^17.7.2",
+    "pdfjs-dist": "^2.13.216"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
