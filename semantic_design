@@ -1,0 +1,31 @@
+# Initial Thoughts on how to manage semantics and ontology
+
+(see also https://github.com/petermr/petermr/discussions/27 which is generic on converting PDF to semantic form though inspired by this project)
+
+Roughly these phases:
+
+## syntactic:
+Recover the Word or LaTeX documents created by the authors. Heuristic, hard
+
+* characters
+* words
+* sentences
+* paragraphs
+* syntactic roles (mainly sub/headings) -> sections
+* tables (even harder)
+* figures (mainly captions and associated image/bitmap
+
+## semantic
+* Add meaning to sections (use JATS)
+* recover 
+- front
+- body
+- back
+- floats
+* recover image semantics (e.g. bar charts( . Hard
+
+## Ontological
+* map words onto Wikidata or other authority
+* classify sections by content
+* label components in diagrams
+* provide semantic and ontological annotation
