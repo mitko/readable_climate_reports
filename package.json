@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/mitko/readable_climate_reports#readme",
   "dependencies": {
+    "@types/lodash": "^4.14.181",
     "@types/node": "^17.0.23",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
     "node": "^17.7.2",
     "pdfjs-dist": "^2.13.216"
   },
